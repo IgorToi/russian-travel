@@ -1,0 +1,15 @@
+.lead__image {
+    max-width: 984px;
+    width: 100%;
+    padding-bottom: 100%;
+    height: 615px;
+    object-fit: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .lead__image  {
+        max-width: 768px;
+    }
+}

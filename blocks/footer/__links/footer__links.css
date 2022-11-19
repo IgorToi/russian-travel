@@ -1,0 +1,19 @@
+.footer__links {
+    display: flex;
+    width: 100%;
+}
+@media screen and (max-width: 644px) {
+    .footer__links {
+        display: grid;
+        grid-template-rows: auto;
+
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        display: grid;
+        grid-template-rows: auto;
+
+    }
+} 
