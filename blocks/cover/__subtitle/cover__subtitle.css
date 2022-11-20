@@ -6,7 +6,6 @@
     text-align: center;
     color: #FFFFFF;
     min-width: 360px;
-    min-height: 66px;
     align-self: center;
     z-index: 5;
     text-decoration: none;
@@ -20,7 +19,6 @@
         font-size: 14px;
         line-height: 16px;
         min-width: 288px;
-        min-height: 48px;
         align-self: center;
     }
 } 

@@ -1,4 +1,4 @@
-.place__website__link {
+.place__website_position_link {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
@@ -8,6 +8,6 @@
     margin: 0px;
     padding-top: 12px;
 }
-.place__website__link:hover {
+.place__website_position_link:hover {
     opacity: 0.8;
 }

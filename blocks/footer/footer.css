@@ -17,12 +17,14 @@
     .footer {
         padding-top: 88px;
         width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 } 
-@media screen and (max-width: 644px) {
+
+@media screen and (max-width: 655px) {
     .footer {
         min-width: 320px;
-        min-height: 398px;
         padding-top: 64px;
         padding-left: 16px;
         padding-right: 118px;
@@ -34,7 +36,6 @@
 @media screen and (max-width: 320px) {
     .footer {
         min-width: 320px;
-        min-height: 398px;
         padding-top: 64px;
         padding-left: 16px;
         padding-right: 118px;
