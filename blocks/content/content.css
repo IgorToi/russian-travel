@@ -1,27 +1,22 @@
-.cover {
-    font-family: 'Inter', Arial, sans-serif;
+.content {
     display: flex;
-    max-width: 1184px;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
-    align-self: center; 
-    padding-top: 60px;
+    align-self: center;
+    width: 100%;
 }
 @media screen and (max-width: 1024px) {
-    .cover {
+    .content  {
         max-width: 1024px;
     }
 } 
 @media screen and (max-width: 768px) {
-    .cover {
+    .content  {
         max-width: 768px;
-        padding-top: 65px;
     }
 } 
 @media screen and (max-width: 320px) {
-    .cover {
+    .content  {
         max-width: 320px;
-        padding-top: 48px;
     }
 } 

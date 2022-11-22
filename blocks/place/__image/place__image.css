@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 768px) {
     .place__image  {
-    max-width: 340px;
-    padding-bottom: 0px;
+        max-width: 340px;
+        padding-bottom: 0px;
     }
 }

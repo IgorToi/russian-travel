@@ -1,27 +1,21 @@
-.cover {
+.back {
+    background-color: #2A2C2F;
+    max-width: 1280px;
     font-family: 'Inter', Arial, sans-serif;
-    display: flex;
-    max-width: 1184px;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center; 
-    padding-top: 60px;
-}
+    margin: auto;
+} 
 @media screen and (max-width: 1024px) {
-    .cover {
+    .back {
         max-width: 1024px;
     }
 } 
 @media screen and (max-width: 768px) {
-    .cover {
+    .back {
         max-width: 768px;
-        padding-top: 65px;
     }
 } 
 @media screen and (max-width: 320px) {
-    .cover {
+    .back {
         max-width: 320px;
-        padding-top: 48px;
     }
 } 

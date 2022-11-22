@@ -1,28 +1,23 @@
 .intro__text {
-    max-width: 690px;
-    font-family: 'Inter';
+    width: 100%;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%; 
     color: #FFFFFF;
-    align-self: flex-start;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
     overflow-wrap: break-word;
 }
-@media screen and (max-width: 768px) {
-    .intro__text {
-        width: 100%;
-    }
-}
+
+
 @media screen and (max-width: 320px) {
     .intro__text {
-        max-width: 720px;
+        max-width: 288px;
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
-        width: 100%;
     }
 }

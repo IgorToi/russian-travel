@@ -3,3 +3,8 @@
     object-fit: cover;
     justify-self: center;
 }
+@media screen and (max-width: 100px) {
+    .photo-grid__item  {
+        max-width: 30%;
+    }
+} 
