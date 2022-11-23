@@ -42,5 +42,7 @@
     .place  {
         padding-top: 50px;
         row-gap: 32px;
+        width: 90%;
+        column-gap: 0px;
     }
 }

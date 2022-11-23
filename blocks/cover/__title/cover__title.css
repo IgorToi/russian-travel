@@ -26,3 +26,8 @@
         max-width: 288px;
     }
 } 
+@media screen and (max-width: 150px) {
+    .cover__title{
+        font-size: 10px;
+    }
+} 

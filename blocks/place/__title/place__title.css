@@ -19,6 +19,21 @@
         font-size: 32px;
         line-height: 35px;
         padding-left: 16px;
-        padding-right: 16px;
+        padding-right: 0px;
+        max-width: 288px;
+    }
+}
+@media screen and (max-width: 319px) {
+    .place__title  {
+        font-size: 32px;
+        line-height: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 95%;
+    }
+}
+@media screen and (max-width: 160px) {
+    .place__title  {
+        font-size: 15px;
     }
 }

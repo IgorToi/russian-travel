@@ -18,3 +18,11 @@
         padding-right: 16px;
     }
 }
+@media screen and (max-width: 300px) {
+    .place__link {
+        max-width: 95%;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 10px;
+    }
+}

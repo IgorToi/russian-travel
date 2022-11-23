@@ -8,6 +8,8 @@
     overflow-wrap: break-word;
     max-width: 484px;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 .place__paragraph :not(:last-child) { 
     padding-bottom: 26px;
@@ -27,5 +29,18 @@
         max-width: 288px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+}
+@media screen and (max-width: 319px) {
+    .place__paragraph {
+        max-width: 95%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    .place__paragraph {
+        font-size: 10px;
     }
 }
