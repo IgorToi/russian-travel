@@ -43,6 +43,10 @@
         max-width: 320px;
         min-height: 200px;
     }
+    .cover__overlay::after{
+        max-width: 320px;
+        min-height: 200px;
+    }
 } 
 
 

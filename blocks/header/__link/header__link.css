@@ -17,3 +17,11 @@
         text-align: right;
     }
 }
+.header__link:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 100px) {
+    .header__link {
+        font-size: 3px;
+    }
+}

@@ -8,3 +8,8 @@
 .header__lang-link :not(:last-child) {
     padding-right: 18px;
 }
+@media screen and (max-width: 100px) {
+    .header__lang-link :not(:last-child) {
+        padding-right: 5px;
+    }
+} 

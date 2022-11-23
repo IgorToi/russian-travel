@@ -36,11 +36,9 @@
         padding-top: 64px;
     }
 } 
+/*
 @media screen and (max-width: 195px) {
     .intro {
         max-width: 195px;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top: 64px;
     }
-} 
+} */

@@ -24,10 +24,16 @@
 
 @media screen and (max-width: 655px) {
     .footer {
-        min-width: 320px;
+        max-width: 320px;
         padding-top: 64px;
         padding-left: 16px;
         display: flex;
         flex-direction: column;
+    }
+} 
+@media screen and (max-width: 60px) {
+    .footer {
+        padding-left: 2px;
+        padding-right: 2px;
     }
 } 

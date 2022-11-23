@@ -12,11 +12,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0px;
+    max-width: 360px;
+    width: 100%;
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 288px;
-        width: 100%;
         font-size: 14px;
         line-height: 16px;
         margin: 0px;
