@@ -20,20 +20,12 @@
         line-height: 35px;
         padding-left: 16px;
         padding-right: 0px;
-        max-width: 288px;
+        max-width: 90%;
     }
 }
-@media screen and (max-width: 319px) {
-    .place__title  {
-        font-size: 32px;
-        line-height: 35px;
-        padding-left: 0px;
-        padding-right: 0px;
-        max-width: 95%;
-    }
-}
-@media screen and (max-width: 160px) {
+@media screen and (max-width: 188px) {
     .place__title  {
         font-size: 15px;
+        padding-left: 5%;
     }
 }

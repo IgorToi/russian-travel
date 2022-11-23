@@ -7,18 +7,20 @@
     letter-spacing: 2px;
     color: #AAAAAA;
     margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 320px) {
     .place__url-heading {
-        max-width: 288px;
+        max-width: 90%;
         padding-left: 16px;
         padding-right: 16px;
     }
 }
-@media screen and (max-width: 319px) {
-    .place__url-heading {
-        max-width: 95%;
-        padding-left: 0px;
-        padding-right: 0px;
+@media screen and (max-width: 188px) {
+    .place__url-heading  {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

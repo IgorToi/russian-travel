@@ -13,7 +13,7 @@
 }
 @media screen and (max-width: 320px) {
     .place__link {
-        max-width: 288px;
+        max-width: 90%;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -21,7 +21,7 @@
 @media screen and (max-width: 300px) {
     .place__link {
         max-width: 95%;
-        padding-left: 0px;
+        padding-left: 20px;
         padding-right: 0px;
         font-size: 10px;
     }
